@@ -58,16 +58,16 @@ int main() {
     if (yangPagi)
         printf("PAGI %s %d %d\n", pagi.nama, pagi.id, pagi.skor);
     else
-        printf("PAGI\n");//kalo ga ada
+        printf("PAGI - \n");//kalo ga ada
 
     if (yangSiang)
         printf("SIANG %s %d %d\n", siang.nama, siang.id, siang.skor);
     else
-        printf("SIANG\n");
+        printf("SIANG - \n");
     if (yangMalam)
         printf("MALAM %s %d %d\n", malam.nama, malam.id, malam.skor);
     else
-        printf("MALAM\n");
+        printf("MALAM - \n");
 
     free(arr);
 return 0;
